@@ -195,7 +195,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
             break;
 
             case 14:
-            cb4++;
+            cg4++;
             ::MessageBeep(MB_ICONERROR);
             ::MessageBox(hwnd,"You have elected candidate 8","Elected",MB_OK);
             des_buttong();
